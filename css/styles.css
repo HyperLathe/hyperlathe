@@ -1,0 +1,320 @@
+body {
+  padding-top: 50px;
+}
+h2 {
+  font-weight: 200;
+  color: #eeeeee;
+}
+h3 {
+  font-weight: 200;
+  color: #7a0808;
+  margin-top: 0px!important;
+}
+a {
+  color: #7A0808;
+}
+a:hover {
+  color: #c00d0d;
+}
+.btn-primary {
+  background: #7a0808;
+  border: 1px solid #7a0808;
+  color: #ffffff;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #ffffff;
+  color: #7a0808;
+  border: 1px solid #7a0808;
+}
+.navbar-default {
+  background: #000000;
+}
+.navbar-default .navbar-nav li a {
+  color: #eeeeee;
+}
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a.active {
+  background: #ffffff;
+  color: #7a0808;
+}
+.end {
+  margin: 0;
+}
+#footer_background {
+  width: 100%;
+  float: left;
+  background: #7a0808;
+}
+#footer_background footer {
+  width: 100%;
+  padding: 0px 15px 0px 0px;
+  text-align: right;
+  color: #eeeeee;
+}
+#footer_background footer .copyright {
+  padding: 7px 0px;
+}
+.menu p {
+  color: #eeeeee;
+  margin: 0px 15px 20px 15px;
+}
+.home {
+  background: url(../images/background_darktube.jpg) top center no-repeat #000000;
+}
+.design {
+  background: url(../images/background_design.jpg) top center #000000;
+}
+.build {
+  background: url(../images/background_redmetal.jpg) top center no-repeat #000000;
+}
+.copywriting {
+  background: url(../images/background_sparkle.jpg) top center no-repeat #000000;
+}
+.contact {
+  background: url(../images/background_sparkle.jpg) top center no-repeat #000000;
+}
+#contact_thanks {
+  margin-top: 50px;
+}
+.thanks {
+  background: #000000;
+  min-height: 500px;
+  margin-top: -50px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.home,
+.design,
+.build,
+.copywriting,
+.contact,
+.thanks {
+  width: 100%;
+  float: left;
+}
+.opener {
+  color: #eeeeee;
+  text-align: center;
+  font-size: 1em;
+  color: white;
+  padding: 50px 0px 90px 0px;
+}
+.opener img {
+  max-width: 70%;
+  margin: 10px 0px 30px 0px;
+}
+.logo_array {
+  width: 100%;
+  float: left;
+  margin: 0px 0px 50px 0px;
+  padding-left: 0px;
+}
+.logo_array li {
+  float: left;
+  width: 20%;
+  text-align: center;
+  list-style-type: none;
+}
+.logo_array li img {
+  height: 30px;
+}
+.lightbox {
+  display: none;
+}
+.contact_form {
+  width: 95%;
+  height: 300px;
+  margin: 20px 2.5% 40px 2.5%;
+}
+.form_line {
+  float: left;
+  height: 20px;
+  width: 100%;
+  margin: 0px 0px 20px 0px;
+}
+.form_box {
+  float: left;
+  margin: 0px 0px 10px 0px;
+  width: 100%;
+}
+.contact_form label {
+  text-align: right;
+  float: left;
+  color: #eeeeee;
+  width: 35%;
+}
+.contact_form input {
+  float: right;
+  width: 60%;
+}
+.contact_form textarea {
+  float: right;
+  width: 60%;
+}
+.submit_button {
+  float: right;
+}
+/* --------------------------------- Mobile Styles - up to 320px wide --------------------------------- */
+.desktop_element {
+  display: none;
+}
+.mobile_element {
+  display: block;
+}
+.navbar-brand {
+  padding: 10px 0px 0px 20px;
+  width: 60px;
+}
+.navbar-brand img {
+  max-width: 100%;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+h2 {
+  margin-left: 15px;
+}
+/* --------------------------------- Minimum width of 321 pixels. ---------------------------------- */
+@media all and (min-width: 321px) {
+  .header_background {
+    display: none;
+  }
+}
+/* --------------------------------- Minimum width of 480 pixels. ---------------------------------- */
+@media (min-width: 480px) {
+  #logo {
+    background: url(../images/logo_hl.png) top left no-repeat;
+    height: 32px;
+    width: 250px;
+    display: block;
+    margin: 11px 0px;
+    background-size: 100%;
+    float: left;
+  }
+  #logo span {
+    display: none;
+  }
+  .desktop_element {
+    display: block;
+  }
+  .mobile_element {
+    display: none;
+  }
+  .header_background {
+    width: 100%;
+    background: #000000;
+    margin: 0px;
+  }
+  .header_background .page-header {
+    margin: 0px auto;
+    border-bottom: 0px;
+    height: 60px;
+  }
+  .header_background h1 {
+    margin: 0px;
+  }
+  .navbar {
+    border: 0px;
+    border-bottom: 1px solid #676767;
+  }
+  .navbar-collapse {
+    padding: 0px 15px 0px 0px;
+  }
+  .nav > li > a {
+    padding: 15px 8px;
+    font-size: 0.8em;
+  }
+  .navbar-nav.navbar-right:last-child {
+    margin-right: 0px;
+  }
+  .opener {
+    font-size: 1.5em;
+  }
+}
+/* --------------------------------- Minimum width of 768 pixels. ---------------------------------- */
+@media (min-width: 768px) {
+  .nav > li > a {
+    padding: 15px 15px;
+    font-size: 1em;
+  }
+}
+/* --------------------------------- Minimum width of 992 pixels. ---------------------------------- */
+@media only screen and (min-width: 992px) {
+  #content {
+    padding: 0px;
+  }
+  .navbar {
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 0px;
+  }
+  .container-fluid {
+    width: 80%;
+    margin: 0px auto;
+  }
+  .navbar-default {
+    width: 100%;
+  }
+  .navbar-default .navbar-nav li a {
+    min-height: 50px;
+  }
+  .navbar-header {
+    width: 45px;
+  }
+  .navbar-brand {
+    width: 100%;
+    padding: 8px 0px;
+  }
+  .navbar-brand img {
+    max-width: 100%;
+  }
+  #content {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .menu {
+    padding: 10px 10%;
+    float: left;
+  }
+  .menu p {
+    margin: 0px 0px 20px 0px;
+  }
+  .page-header {
+    width: 80%;
+    margin: 0px auto;
+  }
+  #footer_background {
+    width: 100%;
+    background: #7a0808;
+  }
+  #footer_background footer {
+    width: 80%;
+    margin: 0px auto;
+    text-align: right;
+    color: #eeeeee;
+  }
+  #footer_background footer .copyright {
+    padding: 7px 0px;
+  }
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  h2 {
+    margin-left: 0px;
+  }
+  .logo_array {
+    width: 80%;
+    margin: 0px 10% 50px 10%;
+    padding-left: 0px;
+  }
+  .logo_array li img {
+    height: 50px;
+  }
+  form {
+    width: 80%;
+  }
+}
+/* --------------------------------- Minimum width of 1200 pixels. ---------------------------------- */
